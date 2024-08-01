@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+.bg{
+    width: 100%;
+    height: 400px;
+    background-image: url('../css_aula7/landscape.jpg');
+    background-repeat: no-repeat;
+    background-color: aqua;
+    background-position: center;
+    /* Também podemos colocar em porcentagem e em pixel os valores do background-position e background-size*/
+    background-size: cover;
+}

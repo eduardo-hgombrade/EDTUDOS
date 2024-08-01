@@ -1,0 +1,34 @@
+/* comportamento em Bloco
+dimensionado os blocos*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+.d1{
+    width: 50%;
+    height: 50px;
+    overflow: hidden;
+    /* Podemos colocar scroll*/
+    display: inline-block;
+    /* podemos colocar em px, e em % também*/
+    background-color: blue;
+    vertical-align: top;
+}
+
+.d2{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-color: red;
+}
+
+.d3{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-color: green;
+}

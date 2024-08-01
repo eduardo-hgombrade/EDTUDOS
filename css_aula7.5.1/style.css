@@ -1,0 +1,44 @@
+/* comportamento em Bloco
+dimensionado os blocos*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+.container{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 50%;
+}
+
+.d1{
+    width: 50%;
+    height: 50px;
+    padding: 20px;
+    margin: 20px;
+    overflow: hidden;
+    /* Podemos colocar scroll*/
+    display: inline-block;
+    /* podemos colocar em px, e em % também*/
+    background-color: blue;
+    vertical-align: top;
+}
+
+.d2{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-color: red;
+    /*margin-top: 20px;*/
+}
+
+.d3{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-color: green;
+    /*margin-left: 20px;*/
+}
