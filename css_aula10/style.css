@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+    @keyframes anim1{
+        from{background-color: darkblue; width: 50%;}
+    /*Também podemos fazer
+        0% {background-color: darkblue;}
+        100% {background-color: green;}
+    Mas isso só mudaria a cor de fundo gradualmente. Não faria a box se mexer*/
+        to{background-color: green; width: 0%;}
+    }
+
+    div{
+    width: 50%;
+    height: 300px;
+    background-color: darkblue;
+    animation-name: anim1;
+    animation-duration: 5s;
+    animation-delay: 2.5s;
+    /*animation-fill-mode: both;*/
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    }
