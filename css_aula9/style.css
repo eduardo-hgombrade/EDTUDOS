@@ -1,0 +1,37 @@
+.teste h2.title{
+    color: green;
+    font-weight: bolder;
+        /*3º*/
+}
+
+h2.title{
+    color: #000;
+        /*5º*/
+}
+
+.teste > .testes2 > h2.title{
+    color: yellow;
+        /*2º*/
+}
+
+.teste >.testes2 > h2.title > p{
+    color: orange !important;
+        /*7º>1º*/
+}
+.teste > .testes2 > h2.title > p{
+    color: purple;
+        /*1º*/
+}
+
+.teste h2{
+    color: red;
+    font-weight: normal;
+        /*4º*/
+}
+
+h2{
+    color: blue;
+    text-align: center;
+        /*6º*/
+}
+
